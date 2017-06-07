@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Droid Sans Mono', monospace;
+  margin: 0;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem 2rem 2rem;
+  min-height: 100vh;
+  background: url(images/hip-pattern.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.intro {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.signup {
+  background-color: #00FF93;
+  padding: 2rem;
+  border-radius: 0.3rem;
+}
+
+h1, h2 {
+  color: #F76045;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  color: #3A73FB;
+}
+
+fieldset {
+  margin: 0 0 1rem 0;
+  padding: 2rem;
+  border: 2px dashed #00C171;
+  border-radius: 0.1rem;
+}
+
+legend {
+  font-size: 1.3rem;
+}
+
+label {
+  display: block;
+  line-height: 2rem;
+}
+
+input {
+  padding: 0.8rem;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.1rem;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+label:nth-of-type(2n) {
+  margin: 1rem 0 0 0;
+}
+
+input[type="submit"] {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #3A73FB;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background-color: #6B96F9;
+}
+
+input[type="file"] {
+  padding: 0.8rem 0;
+}
